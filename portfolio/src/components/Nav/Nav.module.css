@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+.nav_ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    background-color: black;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: -1rem;
+    padding: 7px;
+}
+
+.nav_ul div {
+    list-style: none;
+    color: white;
+    transition: 0.5s;
+    padding: 20px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_ul div:hover{
+    background-color: red;
+    border-radius: 67px;
+    
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.nav_div{
+    width: 100%;
+}
+
+.nav_logo{
+    
+    width: 13rem;
+}
+
+.nav_item{
+    
+    width: 4rem;
+}

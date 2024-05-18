@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.hero_title{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 65px;
+    margin-top: 0px;
+}
+
+.btn_hello{ 
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 22px;
+    border: 2px black solid;
+    border-radius: 18px;
+    background: none;
+    font-size: 12px;
+
+}
+
+.name_developer{
+    color: red;
+}
+
+.lines_1{
+    top: 11px;
+    left: 43px;
+    position: relative;
+    width: 1rem;
+}
+
+.box_lines{
+    
+}

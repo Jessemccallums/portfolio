@@ -1,0 +1,85 @@
+.review_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 18%;
+
+}
+
+.review_text{
+    text-align: left;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.comillas{
+    
+    width: 20px;
+}
+
+.box_experience{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.box_experience h2{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box_experience p{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+.stars{
+    width: 6rem;
+}
+
+.box_everything{
+    display: flex;
+    justify-content: space-around;
+    gap: 30rem;
+}
+
+.jesse_box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 366px;
+
+}
+
+.circle_box{
+    z-index: 300;
+
+}
+
+.circle_img{
+    position: relative;
+    top: 75px;
+    width: 45rem;
+
+}
+
+.box_jesse{
+
+    z-index: 800;
+}
+
+.jesse_img{
+    position: relative;
+    top: -603px;
+    width: 56rem;
+
+}
