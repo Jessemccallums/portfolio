@@ -18,7 +18,7 @@ export default function Jesse() {
 
         <div className={styles.jesse_box}>
             <div className={styles.circle_box}>
-                <img className={styles.circle_img} src={circles} alt="" />
+                
             </div>
             <div className={styles.box_jesse}>
                 <img className={styles.jesse_img} src={jesse} alt="" />
