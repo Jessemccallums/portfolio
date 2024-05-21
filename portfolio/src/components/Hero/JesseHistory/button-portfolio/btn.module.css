@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.box_btn {
+    position: relative;
+    z-index: 5;
+    background: #fafafa10;
+    top: 16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15%;
+    margin: auto;
+    padding: 20px 25px;
+}
+.btns{
+    position: relative;
+    z-index: 6;
+    top: 14rem;
+    width: 20%;
+    margin: auto;
+    background: #fafafa10;
+    border: 2px solid #fafafa10;
+    border-radius: 67px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.glasseffect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+
+}
+
+
+.btn{
+    background: none;
+    border: none;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+
+ 
+}
+
+.btn2{
+    background: none;
+    border: none;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+
+ 
+}
+
+.btn:hover {
+    
+    background-color: red;
+    padding: 8px 20px;
+    border-radius: 20px;
+
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.btn2:hover {
+    
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
