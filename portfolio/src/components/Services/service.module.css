@@ -1,0 +1,61 @@
+.box_services { 
+    background-image: url('../../assets/bg_services.png');
+    
+    position: absolute;
+    z-index: 6;
+    top: 51rem;
+    width: 100%;
+    left: 0px;
+    height: 60vw;
+    border-radius: 86px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.box_top_services{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 59px;
+
+}
+
+.service_title{
+    color: white;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.red_title_{
+    
+    color: red;
+
+}
+
+.service_p{
+
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    flex-direction: column;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.service_box_p{
+    
+    width: 37%;
+}
+
+.box_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
