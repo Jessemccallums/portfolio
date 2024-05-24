@@ -1,0 +1,61 @@
+.box_experience{
+    
+    position: relative;
+    top: 72rem;
+
+}
+
+.experience_title{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+
+}
+
+.experience_title_red{
+    color: red;
+}
+
+.history_experience{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.countries_box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+
+}
+
+.positions{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title_box{
+    color: #344054;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.paragraph_box{
+    color: #98A2B3;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+}
