@@ -1,0 +1,89 @@
+.box_hire_me{
+    position: relative;
+    z-index: 8;
+    top: 80rem;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8rem;
+    padding: 31px;
+}
+
+.box_hire_me_big{
+
+}
+
+.hire_photo{
+
+}
+
+.hire_btn{
+    
+    padding: 16px 45px;
+    display: flex;
+    border-radius: 15px;
+    background: none;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    transition: 0.5s;
+
+}
+
+.hire_btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.mini_box{
+
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mini_box_title{
+    
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 36px;
+    color: #1D2939;
+
+}
+
+.hire_title{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
+    color: #344054;
+    text-align: left;
+
+}
+
+.hire_title_red{
+    color: #5200FF;
+}
+
+.hire_p{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #98A2B3;
+    text-align: left;
+
+}
+
+.mini_box_paragraph{
+
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #667085;
+    font-size: 20px;
+}

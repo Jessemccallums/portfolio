@@ -1,16 +1,16 @@
 .card_title{
-    color: white;
+    color: black;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: left;
-    border-bottom: 2px solid #fafafa10;
+    border-bottom: 2px solid #00000010;
     padding: 28px;
 }
 
 .box_card{
     background: #fafafa10;
-    border: 2px solid #fafafa10;
+    border: 2px solid #00000010;
     border-radius: 213px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -25,7 +25,11 @@
 }
 .box_card:hover {
     
-    background: #ff0000;
+    background: #5200FF;
+}
+.box_card:hover .card_title {
+    
+    color: white;
 }
 
 .box_card:hover .img_card{

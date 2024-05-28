@@ -63,7 +63,7 @@
 .circle_box{
     z-index: 1;
     position: absolute;
-    background: red;
+    background: #5200FF;
     width: 34rem;
     height: 31.9rem;
     top: -3rem;
@@ -103,6 +103,9 @@
 
 
 .jesse_img{
-    width: 59rem;
+    width: 35rem;
+    left: 12rem;
+    top: 3rem;
+    position: relative;
 
 }

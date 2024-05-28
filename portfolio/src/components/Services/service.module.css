@@ -1,13 +1,14 @@
 .box_services { 
-    background-image: url('../../assets/bg_services.png');
-    
+    background-image: url('../../assets/bg_services.jpg');
     position: absolute;
     z-index: 6;
     top: 51rem;
     width: 100%;
+    margin: auto;
     left: 0px;
     height: 60vw;
-    border-radius: 86px;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -23,7 +24,7 @@
 }
 
 .service_title{
-    color: white;
+    color: black;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -32,13 +33,13 @@
 
 .red_title_{
     
-    color: red;
+    color: #5200FF;
 
 }
 
 .service_p{
 
-    color: white;
+    color: black;
     display: flex;
     justify-content: flex-end;
     text-align: justify;
