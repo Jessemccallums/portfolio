@@ -45,10 +45,8 @@
 }
 
 .img_card{
-    width: 24rem;
+    width: 23rem;
     position: relative;
     top: 1rem;
-    left: -0.8rem;
-    
     transition: 0.5s;
 }

@@ -31,7 +31,13 @@
     position: relative;
     width: 1rem;
 }
-
+.lines_2{
+    
+    position: absolute;
+    top: 18.5rem;
+    transform: rotate(180deg);
+    left: 25.5rem;
+}
 .box_lines{
     
 }

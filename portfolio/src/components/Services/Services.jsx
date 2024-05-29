@@ -26,7 +26,7 @@ export default function Services() {
     <div className={styles.box_services}>
         <div className={styles.box_top_services}>
             <div>
-                <h1 className={styles.service_title}>My <span className={styles.red_title}>Services</span></h1>
+                <h1 className={styles.service_title}>My <span className={styles.blue_title}>Services</span></h1>
             </div>
             <div className={styles.service_box_p}>
                 <p className={styles.service_p}>Here, you can see the latest project I have been working on, which has an approach to UX/UI and code.</p>

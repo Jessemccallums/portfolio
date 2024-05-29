@@ -9,6 +9,9 @@ export default function HeroSection() {
             <div>
                 <img className={styles.lines_1} src={lines} alt="" />
             </div>
+            <div>
+                <img className={styles.lines_2} src={lines} alt="" />
+            </div>
             <button className={styles.btn_hello}>
                 Hello!
             </button>

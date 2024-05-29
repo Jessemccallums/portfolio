@@ -3,7 +3,6 @@ import hire_photo from '../../assets/hire_photo.png'
 
 export default function HireMe() {
   return (
-    <div  className={styles.box_hire_me_big}>
     <div className={styles.box_hire_me}>
         <div>
             <img className={styles.hire_photo} src={hire_photo} alt="" />
@@ -25,8 +24,6 @@ export default function HireMe() {
               <button className={styles.hire_btn}>Hire me</button>
             </div>
         </div>
-        
-    </div>
         
     </div>
   )

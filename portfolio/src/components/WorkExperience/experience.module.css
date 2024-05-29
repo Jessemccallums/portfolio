@@ -26,16 +26,16 @@
 }
 
 .countries_box{
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 56px;
+    width: 22rem;
 
 }
 
 .positions{
-    width: 35%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
