@@ -1,0 +1,20 @@
+.box_card_portfolio {
+    background-size: cover;
+    background-position: inherit;
+    width: 91%;
+    height: 24rem;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 6px;
+    justify-content: flex-start;
+}
+
+.title_card {
+  font-family: "IBM Plex Sans Hebrew", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  text-align: left;
+}

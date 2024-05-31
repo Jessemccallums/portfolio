@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.portfolio_box{
+    position: absolute;
+    z-index: 11;
+    top: 210rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.box_title_section_portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 55px;
+
+}
+
+.title_portfolio_section{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    font-size: 50px;
+
+}
+
+.title_portfolio_color{
+    color: #5200FF;
+
+}
+
+.btn_potfolio_section{
+    
+    background: #5200FF;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px 44px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.btn_potfolio_section:hover{
+    background-color: black;
+}
+
+.portfolio_section_cards{
+    display: flex;
+
+}
+
+.slider_container{width: 100%;
+
+}
+
+.btn_positions{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    background-color: #F2F4F7;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.description_headline{
+    
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 50%;
+
+}
+
+.headline_portfolio{
+    
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #344054;
+
+}
+
+.headline_box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.btn_icon{
+
+}
+
+.second_box_portfolio{
+    padding: 25px;
+}

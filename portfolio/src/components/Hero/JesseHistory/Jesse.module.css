@@ -73,11 +73,11 @@
     transition: 0.5s;
 }
 
-.box_everything:hover .circle_box{
+/* .box_everything:hover .circle_box{
     border-top-left-radius: 220px;
     border-top-right-radius: 220px;
     background: rgb(0, 0, 0);
-}
+} */
 
 .circle_img{
     position: relative;
