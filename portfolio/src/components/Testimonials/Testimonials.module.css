@@ -1,0 +1,68 @@
+.testimonials_box {
+    z-index: 13;
+    top: 285rem;
+    background-image: url(/src/assets/bg_services.jpg);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 38px;
+    width: 95.5%;
+    left: 0px;
+    margin: auto;
+    height: 44rem;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.box_headline {
+
+}
+
+.title_headline {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.p_headline {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto;
+    width: 66%;
+}
+
+.title_headline_color {
+    color: #5200FF;
+}
+
+.cards_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60rem;
+    margin: auto;
+    background: #fafafa10;
+    border: 2px solid #fafafa10;
+    background: #fafafa10;
+    padding: 15px;
+}
+
+.slider_container {
+    width: 100%;
+    padding: 1.5rem;
+}
+
+/* Aplica padding a cada slide */
+.testimonials_box .slick-slide {
+    padding: 0 10px; /* Ajusta este valor para aumentar o disminuir el espacio */
+}
+
+/* Compensa el padding aplicado a los slides */
+.testimonials_box .slick-list {
+    margin: 0 -10px; /* Esto compensa el padding para evitar el desplazamiento horizontal */
+}

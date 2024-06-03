@@ -1,0 +1,98 @@
+.box_contact{
+    
+    position: relative;
+    z-index: 15;
+    top: 255rem;
+
+}
+
+.contact_title{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #344054;
+    font-size: 64px;
+    
+}
+
+.contact_title_color{
+    color: #5200FF;
+}
+
+.form_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    margin: auto;
+    -webkit-backdrop-filter: blur(0.4rem);
+    width: 42rem;
+    padding: 5px 15px;
+    border: 0.5px solid #E4E7EC;
+    border-radius: 61px;
+
+}
+
+.btn_form{
+    padding: 16px 39px;
+    border-radius: 30px;
+    border: none;
+    background: #5200FF;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.input_form{
+    
+    width: 30rem;
+    background: none;
+    padding: 12px;
+    border: none;
+    color: black;
+
+}
+
+.input_form::placeholder {
+    color: black;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bottom_box{
+    
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mini_box_bottom{
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.img_bottom{
+
+}
+
+.bottom_title{
+    
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}

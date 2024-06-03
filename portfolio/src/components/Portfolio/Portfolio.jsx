@@ -30,13 +30,15 @@ const cards_portfolio = [
 
 export default function Portfolio() {
     const settings = {
-        className: "center",
-        centerMode: true,
         infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
-        speed: 500
-      };
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 800,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        arrows: false // Desactiva las flechas de navegación
+    };
   return (
     <div className={styles.portfolio_box}>
         <div className={styles.box_title_section_portfolio}>

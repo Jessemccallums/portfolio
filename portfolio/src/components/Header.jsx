@@ -4,6 +4,9 @@ import Services from '../components/Services/Services'
 import Experience from "./WorkExperience/Experience";
 import HireMe from "./HireMe/HireMe"
 import Portfolio from "./Portfolio/Portfolio";
+import Testimonials from "./Testimonials/Testimonials";
+import Contact from "./Contact/Contact";
+import Highlights from "./highlights/Highlights";
 
 
 export default function Header() {
@@ -15,6 +18,9 @@ export default function Header() {
         <Experience />
         <HireMe />
         <Portfolio />
+        <Testimonials />
+        <Contact />
+        <Highlights />
     </div>
   )
 }

@@ -5,8 +5,8 @@
 .nav_ul{
     display: flex;
     justify-content: center;
-    width: 87%;
-    gap: 50px;
+    width: 100%;
+    gap: 35px;
     background-color: black;
     align-items: center;
     border-radius: 100px;
