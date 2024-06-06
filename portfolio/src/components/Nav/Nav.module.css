@@ -224,4 +224,7 @@
   .nav_mobile {
     display: none;
   }
+  .nav_ul_mobile {
+    display: none;
+  }
 }

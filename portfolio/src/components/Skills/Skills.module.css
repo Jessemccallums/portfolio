@@ -81,9 +81,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 85%;
-        padding: 20px -45px;
+        width: 90%;
+        padding: 0px 30px;
         box-sizing: border-box;
+        margin: auto;
     }
 }
 
@@ -93,7 +94,7 @@
     .box_skills {
         position: absolute;
         z-index: 15;
-        top: 425rem;
+        top: 440rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -106,4 +107,15 @@
 /* Desktop */
 @media (min-width: 1024px) {
     /* Your desktop styles here */
+    .box_skills {
+        position: absolute;
+        z-index: 15;
+        top: 377rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
 }

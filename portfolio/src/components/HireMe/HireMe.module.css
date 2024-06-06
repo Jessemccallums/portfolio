@@ -253,7 +253,7 @@
     .box_hire_me {
         position: absolute;
         z-index: 8;
-        top: 186rem;
+        top: 215rem;
         display: flex;
         align-items: center;
         background-image: url(/src/assets/bg_services.jpg);

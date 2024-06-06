@@ -134,6 +134,7 @@
     .testimonials_box {
         height: auto;
         top: 355rem;
+        width: 100%;
     }
 
     .title_headline {
@@ -197,6 +198,22 @@
 
     .comment {
         font-size: 19px;
+    }
+    .testimonials_box {
+        z-index: 13;
+        top: 360rem;
+        background-image: url(/src/assets/bg_services.jpg);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: 44rem;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column;
     }
 }
 
