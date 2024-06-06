@@ -23,7 +23,7 @@ export default function Experience() {
                 </div>
             </div>
             <div>
-                <img src={timeline} alt="" />
+                <img className={styles.experience_img} src={timeline} alt="" />
             </div>
             <div className={styles.positions}>
                 <div>

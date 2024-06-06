@@ -4,5 +4,5 @@ body {
   display: flex;
   place-items: center;
   background-color: #E9D5AE;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }

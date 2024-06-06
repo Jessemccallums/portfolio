@@ -7,6 +7,8 @@ import Portfolio from "./Portfolio/Portfolio";
 import Testimonials from "./Testimonials/Testimonials";
 import Contact from "./Contact/Contact";
 import Highlights from "./highlights/Highlights";
+import Skills from "./Skills/Skills";
+import Footer from "./Footer/Footer";
 
 
 export default function Header() {
@@ -21,6 +23,8 @@ export default function Header() {
         <Testimonials />
         <Contact />
         <Highlights />
+        <Skills />
+        <Footer />
     </div>
   )
 }

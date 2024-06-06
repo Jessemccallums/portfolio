@@ -30,14 +30,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 56px;
-    width: 25rem;
+    width: 100%;
     position: relative;
 
 
 }
 
 .positions{
-    width: 37%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,4 +59,117 @@
     text-align: left;
     font-style: normal;
     font-size: 20px;
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+    .box_experience {
+        position: relative;
+        top: 140rem;    
+        width: 100%;
+    
+    }
+    .countries_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 56px;
+        position: relative;
+        width: auto;
+        margin-right: 20px;
+    }
+    .title_box {
+        color: #000000;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 600;
+        text-align: left;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .paragraph_box {
+        color: #1d2939;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        text-align: left;
+        font-style: normal;
+        font-size: 8px;
+    }
+    .experience_title {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 35px;
+    }
+    .experience_img{
+        
+        width: 2rem;
+    }
+    .positions {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 64%;
+            margin-left: 14px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .box_experience {
+        position: relative;
+        top: 185rem;
+        width: 100%;
+    
+    }
+    .countries_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 56px;
+        position: relative;
+        width: auto;
+    }
+    .title_box {
+        color: #000000;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 600;
+        text-align: left;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .paragraph_box {
+        color: #1d2939;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        text-align: left;
+        font-style: normal;
+        font-size: 8px;
+    }
+    .experience_title {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 35px;
+    }
+    .experience_img{
+        
+    width: 2rem;
+    }
+    .positions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 64%;
+        margin-left: 14px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Your desktop styles here */
 }

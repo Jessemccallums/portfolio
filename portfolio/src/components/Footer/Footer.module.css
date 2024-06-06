@@ -1,0 +1,353 @@
+.box_footer {
+    background: #272727;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    margin: auto;
+    left: 0px;
+    display: flex;
+    top: 418rem;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.mini_box_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.title_box_1 {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FCFCFD;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.btn_box_1 {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background: #5200FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+
+.arrow_btn {
+    width: 1.5rem;
+    margin-left: 10px;
+}
+
+.mini_box_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.mini_box_sub_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo_img {
+    width: 5rem;
+    margin-bottom: 20px;
+}
+
+.description_footer {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social_icons_box {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_menu_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_menu_1_title {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #5200FF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_menu_1_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_menu_1_li {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FCFCFD;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.box_cta {
+    text-align: center;
+}
+
+.title_cta {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #5200FF;
+    margin-bottom: 10px;
+}
+
+.input_box_cta {
+    display: flex;
+    justify-content: center;
+}
+
+.input_mail {
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 20px;
+}
+
+.btn_input {
+    background: #5200FF;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.copy_titles_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.copy_titles {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin: 5px 0;
+}
+@media (max-width: 768px){
+    .footer_menu_1_li {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #FCFCFD;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .box_footer {
+        background: #272727;
+        position: absolute;
+        z-index: 20;
+        width: 100%;
+        margin: auto;
+        left: 0px;
+        display: flex;
+        top: 455rem;
+        flex-direction: column;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer_menu_1_li {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #FCFCFD;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .box_footer {
+    }
+
+    .mini_box_1 {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 0px 40px;
+    }
+
+    .title_box_1 {
+        font-size: 40px;
+    }
+
+    .btn_box_1 {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    .arrow_btn {
+        width: 1.8rem;
+    }
+
+    .mini_box_2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0px;
+        padding: 0px 50px;
+    }
+
+    .mini_box_sub_1 {
+        align-items: flex-start;
+        text-align: left;
+        width: 45%;
+    }
+
+    .logo_img {
+        width: 6rem;
+    }
+
+    .description_footer {
+        width: 100%;
+    }
+
+    .footer_menu_1 {
+        align-items: flex-start;
+        width: 45%;
+    }
+
+    .footer_menu_1_title {
+        font-size: 18px;
+    }
+
+    .title_cta {
+        font-size: 18px;
+    }
+
+    .copy_titles_box {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .copy_titles {
+        font-size: 18px;
+    }
+    .footer_menu_1_li{
+        
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FCFCFD;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .box_footer {
+    }
+
+    .mini_box_1 {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 0px 50px;
+    }
+
+    .title_box_1 {
+        font-size: 48px;
+    }
+
+    .btn_box_1 {
+        font-size: 19.69px;
+        padding: 10px 40px;
+    }
+
+    .arrow_btn {
+        width: 2rem;
+    }
+
+    .mini_box_2 {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 0px 40px;
+    }
+
+    .mini_box_sub_1 {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .logo_img {
+        width: 7rem;
+    }
+
+    .description_footer {
+        width: 25rem;
+    }
+
+    .footer_menu_1 {
+        align-items: flex-start;
+    }
+
+    .footer_menu_1_title {
+        font-size: 20px;
+    }
+
+    .title_cta {
+        font-size: 20px;
+    }
+
+    .copy_titles_box {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .copy_titles {
+        font-size: 20px;
+    }
+}

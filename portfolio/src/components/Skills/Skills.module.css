@@ -1,0 +1,109 @@
+.box_skills {
+    position: absolute;
+    z-index: 15;
+    top: 380rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    padding: 20px -45px;
+    box-sizing: border-box;
+}
+
+.title_skills {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #344054;
+    font-size: 32px; /* Adjusted for mobile view */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills_name {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px; /* Adjusted for mobile view */
+    text-align: center;
+    line-height: 1.5; /* Added for better readability */
+    margin-bottom: 20px;
+}
+
+.skills_name_color {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (min-width: 768px) {
+    .title_skills {
+        font-size: 40px; /* Adjusted for tablet view */
+    }
+    .box_skills {
+        position: absolute;
+        z-index: 15;
+        top: 425rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    .skills_name {
+       
+    font-size: 36px;
+    /* Adjusted for tablet view */
+    }
+}
+
+@media (min-width: 1024px) {
+    .title_skills {
+        font-size: 45px; /* Adjusted for desktop view */
+    }
+
+    .skills_name {
+        
+        font-size: 45px; /* Adjusted for desktop view */
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+    .box_skills {
+        position: absolute;
+        z-index: 15;
+        top: 425rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        padding: 20px -45px;
+        box-sizing: border-box;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .box_skills {
+        position: absolute;
+        z-index: 15;
+        top: 425rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        padding: 20px -45px;
+        box-sizing: border-box;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Your desktop styles here */
+}

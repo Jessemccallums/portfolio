@@ -5,8 +5,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    padding: 38px;
-    width: 95.5%;
+    width: 100%;
     left: 0px;
     margin: auto;
     height: 44rem;
@@ -17,7 +16,7 @@
 }
 
 .box_headline {
-
+    text-align: center;
 }
 
 .title_headline {
@@ -40,29 +39,196 @@
     color: #5200FF;
 }
 
-.cards_box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 60rem;
-    margin: auto;
-    background: #fafafa10;
-    border: 2px solid #fafafa10;
-    background: #fafafa10;
-    padding: 15px;
-}
-
 .slider_container {
     width: 100%;
     padding: 1.5rem;
 }
 
-/* Aplica padding a cada slide */
 .testimonials_box .slick-slide {
-    padding: 0 10px; /* Ajusta este valor para aumentar o disminuir el espacio */
+    padding: 0 10px;
 }
 
-/* Compensa el padding aplicado a los slides */
 .testimonials_box .slick-list {
-    margin: 0 -10px; /* Esto compensa el padding para evitar el desplazamiento horizontal */
+    margin: 0 -10px;
+}
+
+.card_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55rem;
+    margin: auto;
+    background: #fafafa10;
+    border: 2px solid #fafafa10;
+    padding: 15px;
+}
+
+.top_comment_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left_box {
+    display: flex;
+    gap: 13px;
+}
+
+.right_box {
+    /* Styles for right box */
+}
+
+.img_testimonial {
+    width: 10rem;
+    border-radius: 7rem;
+}
+
+.user_name {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23.5px;
+    text-align: left;
+}
+
+.headline_user {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 18.28px;
+}
+
+.quoate_img {
+    /* Styles for quote image */
+}
+
+.comment {
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+}
+
+.comment_box {
+    /* Styles for comment box */
+}
+
+.left_box_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.glasseffect {
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .testimonials_box {
+        height: auto;
+        top: 355rem;
+    }
+
+    .title_headline {
+        font-size: 32px;
+    }
+
+    .p_headline {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .card_box {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img_testimonial {
+        width: 8rem;
+    }
+
+    .user_name {
+        font-size: 20px;
+    }
+
+    .headline_user {
+        font-size: 16px;
+    }
+
+    .comment {
+        font-size: 18px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .title_headline {
+        font-size: 40px;
+    }
+
+    .p_headline {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .card_box {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .img_testimonial {
+        width: 9rem;
+    }
+
+    .user_name {
+        font-size: 22px;
+    }
+
+    .headline_user {
+        font-size: 17px;
+    }
+
+    .comment {
+        font-size: 19px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .title_headline {
+        font-size: 48px;
+    }
+
+    .p_headline {
+        font-size: 20px;
+        width: 66%;
+    }
+
+    .card_box {
+        width: 55rem;
+        padding: 15px;
+    }
+
+    .img_testimonial {
+        width: 10rem;
+    }
+
+    .user_name {
+        font-size: 23.5px;
+    }
+
+    .headline_user {
+        font-size: 18.28px;
+    }
+
+    .comment {
+        font-size: 20px;
+    }
 }

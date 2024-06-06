@@ -41,3 +41,86 @@
 .box_lines{
     
 }
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+    .jesse_img {
+        width: 24rem;
+        left: 16rem;
+        top: 8rem;
+        position: relative;
+    }
+
+    
+    .circle_box {
+        z-index: 1;
+        position: absolute;
+        background: #5200FF;
+        width: 15rem;
+        height: 19.9rem;
+        top: 2rem;
+        left: -8rem;
+        border-top-left-radius: 320px;
+        border-top-right-radius: 320px;
+        transition: 0.5s;
+    }
+    .hero_title {
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    .lines_2 {
+        position: absolute;
+        top: 19.5rem;
+        transform: rotate(180deg);
+        left: 1.5rem;
+        width: 1rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .jesse_img {
+        width: 24rem;
+        left: 16rem;
+        top: 8rem;
+        position: relative;
+    
+    }
+    .circle_box {
+        z-index: 1;
+        position: absolute;
+        background: #5200FF;
+        width: 15rem;
+        height: 19.9rem;
+        top: 2rem;
+        left: -8rem;
+        border-top-left-radius: 320px;
+        border-top-right-radius: 320px;
+        transition: 0.5s;
+    }
+    .hero_title {
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    .lines_2 {
+        position: absolute;
+        top: 19.5rem;
+        transform: rotate(180deg);
+        left: 1.5rem;
+        width: 1rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Your desktop styles here */
+}

@@ -6,7 +6,7 @@
     align-items: center;
     padding: 38px;
     background-image: url(/src/assets/bg_services.jpg);
-    width: 95.5%;
+    width: 100%;
     left: 0px;
     margin: auto;
     height: 46vw;
@@ -91,4 +91,185 @@
     font-style: normal;
     color: #000000;
     font-size: 20px;
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+    
+    .hire_photo {
+        width: 100%;
+    }
+    .hire_title {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 44px;
+        color: #000000;
+        text-align: center;
+    }
+    .hire_p {
+        color: #1d2939;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        text-align: center;
+        padding: 20px;
+    }
+    .mini_box {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    .mini_box_paragraph {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+    }
+    .mini_box_title {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        font-size: 36px;
+        color: #1D2939;
+    }
+    .hire_btn {
+        padding: 16px 45px;
+        display: flex;
+        border-radius: 15px;
+        background: none;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 32px;
+        transition: 0.5s;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .box_hire_me {
+        position: absolute;
+        z-index: 8;
+        top: 200rem;
+        display: flex;
+        align-items: center;
+        background-image: url(/src/assets/bg_services.jpg);
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .box_hire_me {
+        position: absolute;
+        z-index: 8;
+        top: 200rem;
+        display: flex;
+        align-items: center;
+        background-image: url(/src/assets/bg_services.jpg);
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column;
+    }
+    .hire_photo {
+        width: 100%;
+    }
+    .hire_title {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 44px;
+        color: #000000;
+        text-align: center;
+    }
+    .hire_p {
+        color: #1d2939;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        text-align: center;
+        padding: 20px;
+    }
+    .mini_box {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    .mini_box_paragraph {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+    }
+    .mini_box_title {
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        font-size: 36px;
+        color: #1D2939;
+    }
+    .hire_btn {
+        padding: 16px 45px;
+        display: flex;
+        border-radius: 15px;
+        background: none;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 32px;
+        transition: 0.5s;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .box_hire_me {
+        position: absolute;
+        z-index: 8;
+        top: 186rem;
+        display: flex;
+        align-items: center;
+        background-image: url(/src/assets/bg_services.jpg);
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Your desktop styles here */
 }

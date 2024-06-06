@@ -1,91 +1,142 @@
-.card_box{
+.card_box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 55rem;
+    width: 100%;
+    max-width: 55rem;
     margin: auto;
-    
     background: #fafafa10;
     border: 2px solid #fafafa10;
-    
-    background: #fafafa10;
     padding: 15px;
-
-}
-
-.top_comment_box{
-    
+  }
+  
+  .top_comment_box {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-}
-
-.left_box{
+  }
+  
+  .left_box {
     display: flex;
     gap: 13px;
-
-}
-
-.right_box{
-
-}
-
-.img_testimonial{
-    
-    width: 10rem;
+    flex-wrap: wrap;
+  }
+  
+  .right_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img_testimonial {
+    width: 5rem;
     border-radius: 7rem;
-
-}
-
-.user_name{
+  }
+  
+  .user_name {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     font-size: 23.5px;
     text-align: left;
-
-}
-
-.headline_user{
+  }
+  
+  .headline_user {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     text-align: left;
     font-size: 18.28px;
-
-}
-
-.quoate_img{
-
-}
-
-.comment{
-
+  }
+  
+  .quote_img {}
+  
+  .comment {
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
     text-align: left;
-}
-
-.comment_box{
-
-}
-
-.left_box_main{
-    
+  }
+  
+  .comment_box {}
+  
+  .left_box_main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-}
-
-.glasseffect{
-    
+  }
+  
+  .glasseffect {
     background: #fafafa10;
     backdrop-filter: blur(0.4rem);
     -webkit-backdrop-filter: blur(0.4rem);
-}
+  }
+  
+  @media (max-width: 768px) {
+    .card_box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 32rem;
+      margin: auto;
+      background: #fafafa10;
+      border: 2px solid #fafafa10;
+      padding: 15px;
+      }
+    .top_comment_box {
+      align-items: center;
+    }
+  
+    .left_box {
+      justify-content: center;
+    }
+  
+    .user_name,
+    .headline_user,
+    .comment {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img_testimonial {
+      width: 5rem;
+    }
+  
+    .user_name {
+      font-size: 20px;
+    }
+  
+    .headline_user {
+      font-size: 16px;
+    }
+  
+    .comment {
+      font-size: 18px;
+      width: 90%;
+      margin: auto;
+    }
+    .card_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: auto;
+        background: #fafafa10;
+        border: 2px solid #fafafa10;
+        padding: 0;
+      }
+      .quoate_img{
+        width: 5rem;
+      }
+      .top_comment_box {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+      }
+  }
+  

@@ -44,7 +44,7 @@ export default function Contact() {
 
         <div>
             <form ref={form} onSubmit={handleSubmit} className={styles.form_box}>
-                <img src={mail} alt="" />
+                <img className={styles.img_form} src={mail} alt="" />
                 <input type="email" name="user_email"   placeholder='Enter Email Address' className={styles.input_form} />
                 <button  type="submit" className={styles.btn_form}>
                     Send

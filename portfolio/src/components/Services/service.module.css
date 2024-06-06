@@ -2,7 +2,7 @@
     background-image: url('../../assets/bg_services.jpg');
     position: absolute;
     z-index: 6;
-    top: 51rem;
+    top: 57rem;
     width: 100%;
     margin: auto;
     left: 0px;
@@ -59,4 +59,139 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
+}
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+    .box_services {
+        background-image: url(/src/assets/bg_services.jpg);
+        position: absolute;
+        z-index: 6;
+        top: 40.5rem;
+        width: 100%;
+        margin: auto;
+        left: 0px;
+        height: auto;
+        margin-bottom: 38px;
+        padding: 50px 0px;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+    .box_top_services {
+        display: flex;
+        justify-content: space-between;
+        padding: 59px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_box_p {
+        width: 100%;
+    }
+    .box_card {
+        background: #fafafa10;
+        border: 2px solid #00000010;
+        border-radius: -52rem;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 20rem;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+    .box_cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+        flex-direction: column;
+    }
+    .box_card {
+        background: #fafafa10;
+        border: 2px solid #00000010;
+        border-radius: -52rem;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .box_services {
+        background-image: url(/src/assets/bg_services.jpg);
+        position: absolute;
+        z-index: 6;
+        top: 45rem;
+        width: 100%;
+        margin: auto;
+        left: 0px;
+        padding: 95px 10px;
+        height: auto;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+    .box_top_services {
+        display: flex;
+        justify-content: space-between;
+        padding: 59px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_box_p {
+        width: 100%;
+    }
+    .box_card {
+        background: #fafafa10;
+        border: 2px solid #00000010;
+        border-radius: -52rem;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+    .box_cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box_card {
+        background: #fafafa10;
+        border: 2px solid #00000010;
+        border-radius: -52rem;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 25rem;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Your desktop styles here */
 }

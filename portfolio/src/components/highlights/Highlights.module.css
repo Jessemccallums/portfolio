@@ -14,3 +14,22 @@
     background-position: top;
     background-size: cover;
 }
+
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+    .box_highlights {
+        position: absolute;
+        z-index: 8;
+        top: 420rem;
+        display: flex;
+        align-items: center;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+}

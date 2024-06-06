@@ -37,7 +37,15 @@ export default function Portfolio() {
         speed: 800,
         autoplaySpeed: 2000,
         cssEase: "linear",
-        arrows: false // Desactiva las flechas de navegación
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     };
   return (
     <div className={styles.portfolio_box}>
