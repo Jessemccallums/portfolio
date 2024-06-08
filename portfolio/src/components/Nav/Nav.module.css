@@ -129,7 +129,7 @@
   }
   .nav_div {
     position: absolute;
-    z-index: 8;
+    z-index: 30;
     top: 0rem;
     display: flex;
     align-items: center;
@@ -250,12 +250,13 @@
   and (max-device-width: 1366px)  {
   
     .nav_div {
-      position: absolute;
-      z-index: 8;
       top: 0;
+      flex-direction: column;
+      position: absolute;
+      z-index: 1;
       display: flex;
       align-items: center;
-      padding: 38px;
+      padding: 35px 0px;
       width: 100%;
       left: 0px;
       margin: auto;
