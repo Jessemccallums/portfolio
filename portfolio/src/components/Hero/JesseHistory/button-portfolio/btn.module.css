@@ -2,18 +2,18 @@
 
 
 
-.box_btn {
+/* .box_btn {
     position: relative;
     z-index: 5;
     background: #fafafa10;
-    top: 16rem;
+    top: 14rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 15%;
     margin: auto;
     padding: 20px 25px;
-}
+} */
 .btns{    position: relative;
     z-index: 6;
     top: 14rem;
