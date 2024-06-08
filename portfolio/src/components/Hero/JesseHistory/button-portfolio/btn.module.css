@@ -16,7 +16,7 @@
 } */
 .btns{    position: relative;
     z-index: 6;
-    top: 14rem;
+    top: 16.5rem;
     width: 24%;
     margin: auto;
     background: #fafafa10;
@@ -68,7 +68,7 @@
     
     background-color: #5200FF;
     padding: 10px 50px;
-    border-radius: 20px;
+    border-radius: 50px;
 
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 500;
