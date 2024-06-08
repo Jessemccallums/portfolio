@@ -189,14 +189,13 @@
     .box_contact {
         position: relative;
         z-index: 15;
-        top: 245rem;
+        top: 282rem;
     }
 }
 
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) 
-  and (min-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 .box_contact {
     z-index: 15;

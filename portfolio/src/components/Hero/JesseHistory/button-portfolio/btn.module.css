@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
 }
 
@@ -105,6 +106,7 @@
         border: 2px solid #fafafa10;
         border-radius: 67px;
         height: 3rem;
+        gap: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -125,6 +127,7 @@
         border-radius: 67px;
         height: 3rem;
         display: flex;
+        gap: 10px;
         align-items: center;
         justify-content: center;
     }

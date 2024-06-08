@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './btn.module.css'
 
+import { Link } from 'react-scroll';
+
 export default function Btnportfolio() {
   return (
     <div>
@@ -9,8 +11,8 @@ export default function Btnportfolio() {
         
     </div>
         <div className={`${styles.btns} ${styles.glasseffect}`}>
-            <button className={styles.btn}>Portfolio</button>
-            <button className={styles.btn2}>Hire me</button>
+            <Link to='portfolio' smooth={true} duration={500}  className={styles.btn}>Portfolio</Link>
+            <Link  to="hire-me" smooth={true} duration={500} className={styles.btn2}>Hire me</Link>
         </div>
     </div>
   )

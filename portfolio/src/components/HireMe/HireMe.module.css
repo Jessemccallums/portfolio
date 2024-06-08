@@ -281,3 +281,72 @@
 }
 
   } */
+
+  @media (max-width: 1024px) and (max-height: 600px) and (orientation: landscape) {
+    /* Your styles for Google Nest Hub in landscape mode */
+    .box_hire_me {
+        position: absolute;
+        z-index: 8;
+        top: 165rem;
+        display: flex;
+        align-items: center;
+        padding: 38px;
+        background-image: url(/src/assets/bg_services.jpg);
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: 59vw;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.box_hire_me {
+    position: absolute;
+    z-index: 8;
+    top: 165rem;
+    display: flex;
+    align-items: center;
+    padding: 38px;
+    background-image: url(/src/assets/bg_services.jpg);
+    width: 94%;
+    left: 0px;
+    margin: auto;
+    height: 68vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  }
+
+
+  /* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .box_hire_me {
+    z-index: 8;
+    top: 215rem;
+    display: flex;
+    align-items: center;
+    background-image: url(/src/assets/bg_services.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
+  } */

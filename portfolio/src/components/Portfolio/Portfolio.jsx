@@ -48,7 +48,7 @@ export default function Portfolio() {
         ]
     };
   return (
-    <div className={styles.portfolio_box}>
+    <div className={styles.portfolio_box} id="portfolio">
         <div className={styles.box_title_section_portfolio}>
             <h1 className={styles.title_portfolio_section}>
                 Lets have a look at my <br />

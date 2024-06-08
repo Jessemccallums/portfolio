@@ -168,3 +168,45 @@
 
 
  
+
+  /* Unfolded mode in portrait */
+@media (max-width: 1920px) and (max-height: 2560px) and (orientation: portrait) {
+    /* Your styles for ASUS Zenbook Fold unfolded in portrait mode */
+    .box_mobile_hero_section {
+        position: absolute;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
+    }
+}
+
+/* Unfolded mode in landscape */
+@media (max-width: 2560px) and (max-height: 1920px) and (orientation: landscape) {
+    /* Your styles for ASUS Zenbook Fold unfolded in landscape mode */
+    .box_mobile_hero_section {
+        position: absolute;
+        padding: 38px;
+        width: 91%;
+        left: 0px;
+        margin: auto;
+        height: auto;
+    }
+}
+
+/* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    Tus estilos CSS aquí */
+/* .box_mobile_hero_section {
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
+} */

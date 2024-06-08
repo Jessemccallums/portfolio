@@ -3,7 +3,7 @@ import timeline from '../../assets/experience_timeline.png'
 
 export default function Experience() {
   return (
-    <div className={styles.box_experience}>
+    <div className={styles.box_experience} id="about">
         <div>
             <h1 className={styles.experience_title}>Work <span className={styles.experience_title_red}>Experience</span></h1>
         </div>

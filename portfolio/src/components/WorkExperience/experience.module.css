@@ -1,7 +1,6 @@
 .box_experience{
-    
     position: relative;
-    top: 72rem;
+    top: 100rem;
 
 }
 
@@ -223,3 +222,20 @@
     height: auto;
 }
   } */
+
+  /* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Tus estilos CSS aquí */
+/* .box_experience {
+    top: 167rem;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+} */
+/* } */ 

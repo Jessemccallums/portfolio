@@ -430,3 +430,26 @@
         height: auto;
     }
   } */
+
+
+  /* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {  
+    .box_footer {
+    background: #272727;
+    z-index: 20;
+    display: flex;
+    top: 490rem;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
+  } */

@@ -1,6 +1,9 @@
 import styles from './Nav.module.css';
 import logo from '../../assets/logo.png';
 import { useState } from 'react';
+import resume from '../../assets/pdf/jesse-mccallums-CV-2024.pdf'
+
+import { Link } from 'react-scroll';
 
 export default function Nav() {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -8,18 +11,21 @@ export default function Nav() {
   const updateMenu = () => {
     setIsMenuClicked(!isMenuClicked);
   };
-
+  const handleResumeClick = () => {
+    // Abre el archivo PDF en una nueva pestaña
+    window.open(resume, '_blank');
+  };
   return (
     <div className={styles.nav_div}>
       <nav className={styles.nav_desktop}>
         <div className={styles.nav_ul}>
-          <div className={styles.nav_item}>Home</div>
-          <div className={styles.nav_item}>About</div>
-          <div className={styles.nav_item}>Service</div>
+          <Link  className={styles.nav_item} to="home" smooth={true} duration={500}>Home</Link>
+          <Link  className={styles.nav_item}  to="about" smooth={true} duration={500}>About</Link>
+          <Link  className={styles.nav_item} to="services" smooth={true} duration={500}>Service</Link>
           <img className={styles.nav_logo} src={logo} alt="logo" />
-          <div className={styles.nav_item}>Resume</div>
-          <div className={styles.nav_item}>Project</div>
-          <div className={styles.nav_item}>Contact</div>
+          <div  className={styles.nav_item} onClick={handleResumeClick}>Resume</div>
+          <Link  className={styles.nav_item} to='portfolio' smooth={true} duration={500}>Project</Link>
+          <Link  className={styles.nav_item} to="contact" smooth={true} duration={500}>Contact</Link>
         </div>
       </nav>
       <nav className={styles.nav_mobile}>
@@ -29,17 +35,17 @@ export default function Nav() {
           <div className={`${styles.burger_bar} ${isMenuClicked ? styles.clicked : ''}`}></div>
         </div>
         <div>
-          <img className={styles.nav_logo} src={logo} alt="" />
+          <img className={styles.nav_logo_mobile} src={logo} alt="" />
         </div>
       </nav>
       <div className={`${styles.menu} ${isMenuClicked ? styles.visible : styles.hidden}`}>
         <div className={styles.nav_ul_mobile}>
-          <div className={styles.nav_item_mobile}>Home</div>
-          <div className={styles.nav_item_mobile}>About</div>
-          <div className={styles.nav_item_mobile}>Service</div>
-          <div className={styles.nav_item_mobile}>Resume</div>
-          <div className={styles.nav_item_mobile}>Project</div>
-          <div className={styles.nav_item_mobile}>Contact</div>
+          <Link className={styles.nav_item_mobile} to="home" smooth={true} duration={500}>Home</Link>
+          <Link className={styles.nav_item_mobile}  to="about" smooth={true} duration={500}>About</Link>
+          <Link className={styles.nav_item_mobile} to="services" smooth={true} duration={500}>Service</Link>
+          <div className={styles.nav_item_mobile} onClick={handleResumeClick}>Resume</div>
+          <Link className={styles.nav_item_mobile} to='portfolio' smooth={true} duration={500}>Project</Link>
+          <Link className={styles.nav_item_mobile} to="contact" smooth={true} duration={500}>Contact</Link>
         </div>
       </div>
     </div>

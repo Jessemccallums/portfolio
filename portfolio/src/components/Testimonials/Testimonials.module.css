@@ -303,3 +303,27 @@
     flex-direction: column;
 }
 } */
+
+/* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.testimonials_box{
+    z-index: 13;
+    top: 379rem;
+    background-image: url(/src/assets/bg_services.jpg);
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+    flex-direction: column;
+}
+  } */

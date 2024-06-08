@@ -36,7 +36,7 @@ export default function Contact() {
 
 
   return (
-    <div className={styles.box_contact}>
+    <div className={styles.box_contact} id='contact'> 
         <h1 className={styles.contact_title}>
         Have an Awsome Project <br />
         Idea? <span className={styles.contact_title_color}>Let’s Discuss</span>

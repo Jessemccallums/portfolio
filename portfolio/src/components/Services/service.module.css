@@ -198,7 +198,7 @@
         background-image: url(/src/assets/bg_services.jpg);
         position: absolute;
         z-index: 6;
-        top: 46rem;
+        top: 50rem;
         width: 100%;
         margin: auto;
         left: 0px;
@@ -259,3 +259,83 @@
     background-size: cover;
 }
   } */
+
+  @media (max-width: 1024px) and (max-height: 600px) and (orientation: landscape) {
+    .box_services {
+        background-image: url(/src/assets/bg_services.jpg);
+        z-index: 6;
+        top: 50rem;
+        height: 49rem;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Tus estilos CSS aquí */
+
+
+.box_services {
+    background-image: url(/src/assets/bg_services.jpg);
+    z-index: 6;
+    top: 50rem;
+    height: 74vw;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 38px;
+    width: 93%;
+    left: 0px;
+    margin: auto;
+    justify-content: center;
+}
+}
+
+
+/* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Tus estilos CSS aquí */
+/* .box_services {
+    background-image: url(/src/assets/bg_services.jpg);
+    z-index: 6;
+    top: 45rem;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+} */
+/* }  */

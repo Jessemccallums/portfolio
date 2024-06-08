@@ -23,7 +23,7 @@ export default function Services() {
 
 
   return (
-    <div className={styles.box_services}>
+    <div className={styles.box_services} id="services">
         <div className={styles.box_top_services}>
             <div>
                 <h1 className={styles.service_title}>My <span className={styles.blue_title}>Services</span></h1>
