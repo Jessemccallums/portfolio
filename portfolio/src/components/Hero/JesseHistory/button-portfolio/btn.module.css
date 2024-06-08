@@ -133,7 +133,27 @@
     }
 }
 
+@media (min-width: 1920px) and (max-width: 1920px) and (min-height: 919px) and (max-height: 919px) {
+ 
+    .btns {
+        position: relative;
+        z-index: 6;
+        top: 8rem;
+        width: 24%;
+        margin: auto;
+        background: #fafafa10;
+        border: 2px solid #fafafa10;
+        border-radius: 67px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    }
+
 /* Desktop */
 @media (min-width: 1024px) {
     /* Your desktop styles here */
 }
+
