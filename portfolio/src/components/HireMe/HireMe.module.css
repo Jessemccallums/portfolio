@@ -156,21 +156,21 @@
         margin-bottom: 60px;
     }
     .box_hire_me {
-        position: absolute;
         z-index: 8;
-        top: 200rem;
         display: flex;
         align-items: center;
         background-image: url(/src/assets/bg_services.jpg);
-        width: 100%;
-        left: 0px;
-        margin: auto;
-        height: auto;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
         flex-direction: column;
-        padding: 0;
+        position: absolute;
+        top: 190rem;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
 }
 
@@ -178,20 +178,21 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     /* Your tablet styles here */
     .box_hire_me {
-        position: absolute;
         z-index: 8;
-        top: 200rem;
+        top: 215rem;
         display: flex;
         align-items: center;
         background-image: url(/src/assets/bg_services.jpg);
-        width: 100%;
-        left: 0px;
-        margin: auto;
-        height: 100%;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
         flex-direction: column;
+        position: absolute;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
     .hire_photo {
         width: 100%;
@@ -250,26 +251,33 @@
         margin: auto;
         margin-bottom: 60px;
     }
-    .box_hire_me {
-        position: absolute;
-        z-index: 8;
-        top: 215rem;
-        display: flex;
-        align-items: center;
-        background-image: url(/src/assets/bg_services.jpg);
-        width: 100%;
-        left: 0px;
-        margin: auto;
-        height: auto;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
-        flex-direction: column;
-        padding: 0;
-    }
+    
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
     /* Your desktop styles here */
 }
+/* 
+@media only screen 
+  and (min-device-width: 853px) 
+  and (max-device-width: 1280px) {
+.box_hire_me {
+    z-index: 8;
+    top: 215rem;
+    display: flex;
+    align-items: center;
+    background-image: url(/src/assets/bg_services.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
+
+  } */

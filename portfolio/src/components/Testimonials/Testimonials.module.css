@@ -132,9 +132,16 @@
 /* Mobile */
 @media (max-width: 767px) {
     .testimonials_box {
-        height: auto;
-        top: 355rem;
+        z-index: 11;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 348rem;
+        padding: 38px;
         width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
 
     .title_headline {
@@ -201,18 +208,19 @@
     }
     .testimonials_box {
         z-index: 13;
-        top: 360rem;
+        top: 373rem;
         background-image: url(/src/assets/bg_services.jpg);
-        position: absolute;
         display: flex;
         align-items: center;
-        width: 100%;
-        left: 0px;
-        margin: auto;
-        height: 44rem;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
+        position: absolute;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
         flex-direction: column;
     }
 }
@@ -249,3 +257,49 @@
         font-size: 20px;
     }
 }
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.testimonials_box {
+    z-index: 13;
+    top: 285rem;
+    background-image: url(/src/assets/bg_services.jpg);
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+    position: absolute;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
+  }
+
+  /* @media only screen 
+  and (min-device-width: 853px) 
+  and (max-device-width: 1280px) {
+  .testimonials_box {
+    z-index: 13;
+    top: 373rem;
+    background-image: url(/src/assets/bg_services.jpg);
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+    flex-direction: column;
+}
+} */

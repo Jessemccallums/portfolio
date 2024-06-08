@@ -75,16 +75,18 @@
 @media (max-width: 767px) {
     /* Your mobile styles here */
     .box_skills {
-        position: absolute;
         z-index: 15;
-        top: 425rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
-        padding: 0px 30px;
         box-sizing: border-box;
+        position: absolute;
+        top: 423rem;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
         margin: auto;
+        height: auto;
     }
 }
 
@@ -92,15 +94,18 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     /* Your tablet styles here */
     .box_skills {
-        position: absolute;
         z-index: 15;
-        top: 440rem;
+        top: 447rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 85%;
-        padding: 20px -45px;
         box-sizing: border-box;
+        position: absolute;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
 }
 
@@ -118,4 +123,25 @@
         padding: 0px 20px;
         box-sizing: border-box;
     }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.box_skills {
+    z-index: 15;
+    top: 377rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+    box-sizing: border-box;
+}
 }

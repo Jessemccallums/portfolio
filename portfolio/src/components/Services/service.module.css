@@ -66,22 +66,23 @@
 /* Mobile */
 @media (max-width: 767px) {
     /* Your mobile styles here */
+ 
     .box_services {
         background-image: url(/src/assets/bg_services.jpg);
-        position: absolute;
         z-index: 6;
-        top: 40.5rem;
-        width: 100%;
-        margin: auto;
-        left: 0px;
-        height: auto;
-        margin-bottom: 38px;
-        padding: 50px 0px;
         border-top-left-radius: 31px;
         border-top-right-radius: 31px;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
+        position: absolute;
+        z-index: 8;
+        top: 37rem;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
     .box_top_services {
         display: flex;
@@ -130,15 +131,14 @@
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
     /* Your tablet styles here */
-    .box_services {
-        background-image: url(/src/assets/bg_services.jpg);
-        position: absolute;
+    .box_services {background-image: url(/src/assets/bg_services.jpg);
         z-index: 6;
         top: 45rem;
+        position: absolute;
+        padding: 38px;
         width: 100%;
-        margin: auto;
         left: 0px;
-        padding: 95px 10px;
+        margin: auto;
         height: auto;
         border-top-left-radius: 31px;
         border-top-right-radius: 31px;
@@ -210,3 +210,52 @@
         background-size: cover;
     }
 }
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.box_services {
+    background-image: url(/src/assets/bg_services.jpg);
+    z-index: 6;
+    top: 50rem;
+    height: 60vw;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    justify-content: center;
+}
+
+  }
+
+  /* @media only screen 
+  and (min-device-width: 853px) 
+  and (max-device-width: 1280px) {
+  .box_services {
+    background-image: url(/src/assets/bg_services.jpg);
+    z-index: 6;
+    top: 45rem;
+    position: absolute;
+    padding: 38px;
+    width: 91%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  } */

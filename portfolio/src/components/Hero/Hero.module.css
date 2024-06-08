@@ -80,6 +80,18 @@
         left: 1.5rem;
         width: 1rem;
     }
+    .box_mobile_hero_section{
+        position: absolute;
+     z-index: 8;
+     top: 0rem;
+     padding: 38px;
+     width: 100%;
+     left: 0px;
+     margin: auto;
+     height: auto; 
+     }
+
+    
 }
 
 /* Tablet */
@@ -118,9 +130,41 @@
         left: 1.5rem;
         width: 1rem;
     }
+    .box_mobile_hero_section{
+        
+        position: absolute;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
+         }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
     /* Your desktop styles here */
 }
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.box_mobile_hero_section{
+
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    justify-content: center;
+}
+  }
+
+
+
+ 

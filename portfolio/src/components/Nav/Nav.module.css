@@ -127,6 +127,18 @@
   .nav_item_mobile:hover {
     color: #5200FF;
   }
+  .nav_div {
+    position: absolute;
+    z-index: 8;
+    top: 0rem;
+    display: flex;
+    align-items: center;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
 }
 
 /* Tablet */
@@ -139,10 +151,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     background: none;
-    position: relative;
     z-index: 21;
+    position: absolute;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    height: auto;
   }
 
   .burger_menu {
@@ -228,3 +244,21 @@
     display: none;
   }
 }
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)  {
+  
+    .nav_div {
+      position: absolute;
+      z-index: 8;
+      top: 0;
+      display: flex;
+      align-items: center;
+      padding: 38px;
+      width: 100%;
+      left: 0px;
+      margin: auto;
+      justify-content: center;
+  }
+  }

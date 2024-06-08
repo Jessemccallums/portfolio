@@ -102,11 +102,14 @@
 @media (max-width: 767px) {
     /* Your mobile styles here */
     .box_contact {
-        position: relative;
         z-index: 15;
-        top: 337rem;
+        position: absolute;
+        top: 389rem;
+        padding: 38px;
         width: 100%;
-        height: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
     .form_box {
         display: flex;
@@ -159,13 +162,17 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     /* Your tablet styles here */
     .box_contact{
-        position: relative;
         z-index: 15;
-        top: 345rem;   
-        width: 100%;
+        top: 418rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: absolute;
+        padding: 38px;
+        width: 100%;
+        left: 0px;
+        margin: auto;
+        height: auto;
     }
     .contact_title {
         font-family: "IBM Plex Sans Hebrew", sans-serif;
@@ -185,3 +192,21 @@
         top: 245rem;
     }
 }
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.box_contact {
+    z-index: 15;
+    top: 333rem;
+    position: absolute;
+    padding: 38px;
+    width: 100%;
+    left: 0px;
+    margin: auto;
+    height: auto;
+}
+
+  }
