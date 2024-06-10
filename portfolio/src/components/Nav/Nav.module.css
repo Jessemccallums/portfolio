@@ -31,6 +31,8 @@
   font-weight: 400;
   font-style: normal;
   padding: 14px 35px;
+  
+  cursor: pointer;
 }
 
 .nav_ul div:hover {
@@ -58,6 +60,8 @@
 
 .nav_item {
   width: 4rem;
+  cursor: pointer;
+
 }
 
 /* Mobile */

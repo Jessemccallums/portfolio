@@ -8,7 +8,7 @@ import Btnportfolio  from './button-portfolio/btn-portfolio'
 export default function Jesse() {
   return (
         <div>
-            <div className={styles.box_everything}>
+            <div className={styles.box_everything} id='home'>
                 <div className={styles.review_box}>
                     <div>
                         <img className={styles.comillas} src={comillas} alt="" />

@@ -12,19 +12,23 @@ import btn_icon from '../../assets/icon_btn_arrow.png'
 const cards_portfolio = [
     {
     img: risetalk,
-    title: "Risetalk"
+    title: "Risetalk",
+    link: 'https://github.com/Risetalk'
     },
     {
         img: rickandmorty,
-        title: "Rick and Morty"
+        title: "Rick and Morty",
+        link: "https://github.com/Jessemccallums/Rick-and-Morty-App"
     },
     {
         img: starbone,
-        title: 'Shopify Theme Store "Starbone" '
+        title: 'Shopify Theme Store "Starbone" ',
+        link: "https://github.com/Jessemccallums/Starbone-Fashion"
     },
     {
         img: fashion,
-        title: 'Shopify Theme Store "fashion" '
+        title: 'Shopify Theme Store "fashion" ',
+        link: "https://www.figma.com/design/C4rWar8VKlntOgUfdxt2wk/Ecommerce-%231?m=auto&t=faVHHjGP2WCK3Unc-6"
     }
 ]
 
@@ -60,7 +64,7 @@ export default function Portfolio() {
         <div className={styles.slider_container} >
             <Slider {...settings}>
                 {cards_portfolio.map((el, index) => {
-                return <CardPortfolio key={index} img={el.img} title={el.title} />
+                return <CardPortfolio key={index} img={el.img} title={el.title} link={el.link}/>
                 })}
             </Slider>
         </div>

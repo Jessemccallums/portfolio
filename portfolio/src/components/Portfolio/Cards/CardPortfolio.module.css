@@ -18,3 +18,7 @@
   color: white;
   text-align: left;
 }
+
+.link_url{
+  text-decoration: none;
+}

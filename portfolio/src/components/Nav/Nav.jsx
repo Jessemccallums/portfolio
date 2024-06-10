@@ -11,17 +11,21 @@ export default function Nav() {
   const updateMenu = () => {
     setIsMenuClicked(!isMenuClicked);
   };
+  const items_menu_update = () => {
+    setIsMenuClicked(false);
+  };
   const handleResumeClick = () => {
     // Abre el archivo PDF en una nueva pestaña
     window.open(resume, '_blank');
+    setIsMenuClicked(false);
   };
   return (
     <div className={styles.nav_div}>
       <nav className={styles.nav_desktop}>
         <div className={styles.nav_ul}>
           <Link  className={styles.nav_item} to="home" smooth={true} duration={500}>Home</Link>
-          <Link  className={styles.nav_item}  to="about" smooth={true} duration={500}>About</Link>
           <Link  className={styles.nav_item} to="services" smooth={true} duration={500}>Service</Link>
+          <Link  className={styles.nav_item}  to="about" smooth={true} duration={500}>About</Link>
           <img className={styles.nav_logo} src={logo} alt="logo" />
           <div  className={styles.nav_item} onClick={handleResumeClick}>Resume</div>
           <Link  className={styles.nav_item} to='portfolio' smooth={true} duration={500}>Project</Link>
@@ -40,12 +44,12 @@ export default function Nav() {
       </nav>
       <div className={`${styles.menu} ${isMenuClicked ? styles.visible : styles.hidden}`}>
         <div className={styles.nav_ul_mobile}>
-          <Link className={styles.nav_item_mobile} to="home" smooth={true} duration={500}>Home</Link>
-          <Link className={styles.nav_item_mobile}  to="about" smooth={true} duration={500}>About</Link>
-          <Link className={styles.nav_item_mobile} to="services" smooth={true} duration={500}>Service</Link>
+          <Link className={styles.nav_item_mobile} onClick={items_menu_update} to="home" smooth={true} duration={500}>Home</Link>
+          <Link className={styles.nav_item_mobile} onClick={items_menu_update}  to="about" smooth={true} duration={500}>About</Link>
+          <Link className={styles.nav_item_mobile} onClick={items_menu_update} to="services" smooth={true} duration={500}>Service</Link>
           <div className={styles.nav_item_mobile} onClick={handleResumeClick}>Resume</div>
-          <Link className={styles.nav_item_mobile} to='portfolio' smooth={true} duration={500}>Project</Link>
-          <Link className={styles.nav_item_mobile} to="contact" smooth={true} duration={500}>Contact</Link>
+          <Link className={styles.nav_item_mobile} onClick={items_menu_update} to='portfolio' smooth={true} duration={500}>Project</Link>
+          <Link className={styles.nav_item_mobile} onClick={items_menu_update} to="contact" smooth={true} duration={500}>Contact</Link>
         </div>
       </div>
     </div>
